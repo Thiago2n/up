@@ -1,0 +1,106 @@
+﻿@page
+@model ParceriaModel
+@{
+    ViewData["Title"] = "Parceria";
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>.</title>
+    <link rel="stylesheet" href="/css/site.css" />
+</head>
+<body>
+    <h1 class="Titulo">Parcerias</h1>
+    <img class="work" img src="~/img/work.png" alt="" />
+    <img class="p1" img src="~/img/p1.png" alt="" />
+    <img class="p2" img src="~/img/p3.png" alt="" />
+
+    <div class="Para">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+        <p>elit.Etiam eget ligula eu lectus lobortis condimentum.</p>
+        <p>Aliquam nonummy auctor massa. Pellentesque</p>
+        <p>habitant morbi tristique senectus et netus et</p>
+        <p>malesuada fames ac turpis egestas. Nulla at risus.</p> 
+        <p>Quisque purus magna, auctor et, sagittis ac, posuere eu,</p> 
+        <p>lectus. Nam mattis, felis ut adipiscing.</p>
+       
+     </div>
+    <h3 class="Entre"> Entre em contato</h3>
+    <h4 class="Numero"> Telefone:(71) 98699-4989</h4>
+    <h4 class="Email">Email: ecolife@gmail.com</h4>
+
+    <style>
+
+        .Titulo {
+            position :relative;
+            font-family: Alata;
+            font-size: 50px;
+            top:15px;
+            color: #4e6137;
+        }
+
+        .work {
+            position: relative;
+            width: 450px;
+            height: 280px;
+            border-radius:10%;
+            z-index: 1;
+            left: 870px;
+            top:120px;
+        }
+        .p1 {
+            position:relative;
+            width:200px;
+            height:250px;
+            left:350px;
+            opacity:0.3;
+        }
+        .p2 {
+            position:relative;
+            width:200px;
+            height: 250px;
+            left: 530px;
+            transform: rotate(40deg);
+            opacity: 0.3;
+        }
+        .Para {
+            text-align: center;
+            position: relative;
+            font-family: Alata;
+            flex-direction: column;
+            font-size: 24px;
+            right:400px;
+            top: -295px;
+            z-index: 99;
+        }
+
+       
+        .Entre {
+            position:relative;
+            font-family:Kodchasan;
+            text-align: center;
+            font-size: 38px;
+            top:-225px;
+        }
+
+        .Numero {
+            position:relative;
+            font-family:Kodchasan;
+            text-align: center;
+            font-size: 35px;
+            top:-215px
+        }
+
+        .Email {
+            position:relative;
+            font-family:Kodchasan;
+            text-align: center;
+            font-size: 32px;
+            top:-200px;
+        }
+    </style>
+</body>
+</html>
